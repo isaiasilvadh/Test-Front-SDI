@@ -1,0 +1,30 @@
+<div id="main-wrapper">
+
+  <app-header></app-header>
+
+  <app-sidebar></app-sidebar>
+
+  <div class="page-wrapper">
+
+    <div class="container-fluid">
+
+      <!-- BreadCrumbs -->
+      <app-bread-crumbs></app-bread-crumbs>
+
+      <!-- Sistema de Rutas -->
+      <router-outlet></router-outlet>
+
+
+    </div>
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <footer class="footer">
+        © {{ currentYear }} SDI | UTPL 
+    </footer>
+    <!-- ============================================================== -->
+    <!-- End footer -->
+    <!-- ============================================================== -->
+  </div>
+
+</div>
